@@ -1,0 +1,9 @@
+body{background-color:gray ;}
+img{
+    height: 260px;
+  transform: translate(550px,-80px) rotateX(10deg)
+
+}
+.form-group{
+ 
+}

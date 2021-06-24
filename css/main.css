@@ -1,0 +1,8 @@
+/* Variables */
+/* SCSS*/
+nav {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
