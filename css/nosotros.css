@@ -1,0 +1,96 @@
+ /* Color of the links BEFORE scroll */
+ .navbar-scroll .nav-link,
+ .navbar-scroll .fa-bars,
+ .navbar-scroll .navar-brand {
+   color: #4f4f4f;
+ }
+ 
+ .navbar-scroll .nav-link:hover {
+   color: burlywood;
+ }
+ 
+ /* Color of the links AFTER scroll */
+ .navbar-scrolled .nav-link,
+ .navbar-scrolled .fa-bars,
+ .navbar-scrolled .navar-brand {
+   color: #4f4f4f;
+ }
+ 
+ /* Color of the navbar AFTER scroll */
+ .navbar-scroll,
+ .navbar-scrolled {
+   background-color: #fff;
+ }
+ 
+ /* An optional height of the navbar AFTER scroll */
+ .navbar.navbar-scroll.navbar-scrolled {
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
+ 
+.contenedor-textos{ 
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    margin-top: 70px;
+   flex-direction: column;
+
+
+   
+}
+
+
+.contenedor-texto1{
+    background-color: white;
+    width: 60%;
+    height: 100px;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+   
+   
+}
+.contenedor-texto2{
+    background-color:white;
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+   
+    
+}
+ main div h1{text-align: center;
+color: black;
+align-items: center;
+font-family: 'Bebas Neue', cursive;
+}
+ main div p{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+.btn-wsp{
+    position: fixed;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(16, 211, 32);
+    color: white;
+    border-radius: 56px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3); 
+    z-index: 100;
+    
+  }
+  .btn-wsp:hover{
+    text-decoration: none;
+    color: rgb(16, 211, 32);
+   background-color: white;
+}
+@media screen and (max-width: 400px)
+    {.contenedor-textos{
+      margin-bottom: 80%;
+    }
+    
